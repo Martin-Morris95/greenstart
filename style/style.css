@@ -199,6 +199,16 @@ footer {
     width: 100%;
   }
 
+  .main-banner {
+
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: right 0px bottom 90%;
+
+  }
+
   .faqImg {
     width: 50%;
     display: block;
