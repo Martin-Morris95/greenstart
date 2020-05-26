@@ -6,15 +6,12 @@
   background-color: #eeeeee;
 }
 
-
 .main-banner {
-
   background-repeat: no-repeat;
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-position: right 0px bottom 90%;
-
+  background-position: right 0px bottom 70%;
 }
 
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
@@ -50,7 +47,6 @@
 
 .main-banner-container {
   padding: 0 !important;
-
 }
 
 #headerDiv {
@@ -78,7 +74,6 @@
   width: 25%;
 }
 
-
 .rightFakeCara {
   position: absolute;
   opacity: 50%;
@@ -100,7 +95,7 @@
 }
 
 footer {
-  color: rgb(51, 179, 79);
+  color: rgb(95, 175, 87);
 }
 
 .no-hoverHand {
@@ -129,7 +124,7 @@ footer {
   position: absolute;
   top: 8px;
   left: 2%;
-  color: rgb(51, 179, 79);
+  color: rgb(95, 175, 87);
   font-size: 36px;
 }
 
@@ -141,7 +136,7 @@ footer {
   position: absolute;
   top: 8px;
   right: 2%;
-  color: rgb(51, 179, 79);
+  color: rgb(95, 175, 87);
   font-size: 36px;
 }
 
@@ -152,7 +147,7 @@ footer {
   text-transform: capitalize;
 }
 
-.testimonial-title>small {
+.testimonial-title > small {
   display: block;
   color: #656565;
   font-size: 15px;
@@ -183,26 +178,27 @@ footer {
   .center-small {
     text-align: center;
   }
-
-
 }
 
+.header-green {
+  color: rgb(95, 175, 87);
+}
+
+.body-green {
+  color: rgb(168, 204, 116);
+}
 /*Tesimonal End Css---------------------------------------------------------*/
 
 @media (max-width: 768px) {
-  #headerDiv>img {
+  #headerDiv > img {
     min-width: 70% !important;
   }
 
   .logo {
-
     width: 100%;
   }
 
-
-
   .main-banner {
-
     background-repeat: no-repeat;
     height: 200px;
     width: 100%;
@@ -236,7 +232,6 @@ footer {
 }
 
 @media (max-width: 1500px) {
-
   .rightFakeCara,
   .leftFakeCara {
     display: none;
@@ -245,7 +240,7 @@ footer {
 
 .carousel-item {
   border: 1px solid #dee2e6;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 /*Slide Anim*/
