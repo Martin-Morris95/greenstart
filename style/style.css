@@ -183,6 +183,8 @@ footer {
   .center-small {
     text-align: center;
   }
+
+
 }
 
 /*Tesimonal End Css---------------------------------------------------------*/
@@ -190,6 +192,11 @@ footer {
 @media (max-width: 768px) {
   #headerDiv>img {
     min-width: 70% !important;
+  }
+
+  .logo {
+
+    width: 100%;
   }
 
   .faqImg {
