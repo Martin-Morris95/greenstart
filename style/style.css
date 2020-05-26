@@ -199,6 +199,8 @@ footer {
     width: 100%;
   }
 
+
+
   .main-banner {
 
     background-repeat: no-repeat;
@@ -206,7 +208,11 @@ footer {
     width: 100%;
     background-size: cover;
     background-position: right 0px bottom 90%;
+    margin: 0 !important;
+  }
 
+  .main-banner-container {
+    margin: 0 !important;
   }
 
   .faqImg {
@@ -214,6 +220,10 @@ footer {
     display: block;
     margin: auto !important;
     margin-bottom: 1em !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
   }
 
   .contactDetails {
