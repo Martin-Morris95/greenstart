@@ -147,7 +147,7 @@ footer {
   text-transform: capitalize;
 }
 
-.testimonial-title > small {
+.testimonial-title>small {
   display: block;
   color: #656565;
   font-size: 15px;
@@ -187,10 +187,11 @@ footer {
 .body-green {
   color: rgb(168, 204, 116);
 }
+
 /*Tesimonal End Css---------------------------------------------------------*/
 
 @media (max-width: 768px) {
-  #headerDiv > img {
+  #headerDiv>img {
     min-width: 70% !important;
   }
 
@@ -232,6 +233,7 @@ footer {
 }
 
 @media (max-width: 1500px) {
+
   .rightFakeCara,
   .leftFakeCara {
     display: none;
